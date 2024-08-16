@@ -1,4 +1,5 @@
-import { Button } from "antd"
+import { Button } from "./components/ui/button"
+
 
 function App() {
 
