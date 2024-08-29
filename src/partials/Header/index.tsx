@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button"
-
+import Logo from "@/assets/imgs/logo-full.png";
 
 const Header = () => {
   return (
     <div className="w-full border-b-2">
-      <div className="flex justify-between py-4 px-8">
+      <div className="flex justify-between items-center py-4 px-8">
         <div>
-          <h1 className="text-4xl font-bold">NexaNect</h1>
+          <img src={Logo} width={200}/>
         </div>
-        <div className="flex flex-row gap-4 mt-2">
+        <div className="flex flex-row gap-12 text-lg">
           <h1>Home</h1>
           <h1>About</h1>
           <h1>Features</h1>
